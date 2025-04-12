@@ -7,7 +7,7 @@ import (
 
 	"github.com/caddyserver/caddy/v2"
 	"github.com/caddyserver/caddy/v2/caddyconfig/caddyfile"
-	libdnsacmedns "github.com/libdns/acmedns"
+	libdnsacmedns "github.com/tbocek/acmedns"
 )
 
 // Provider lets Caddy read and manipulate DNS records hosted by this DNS provider.
@@ -65,37 +65,40 @@ func (p *Provider) Provision(ctx caddy.Context) error {
 // acmedns <config_file_path>
 //
 // 2)
-// acmedns {
-//     config_file_path <config_file_path>
-// }
+//
+//	acmedns {
+//	    config_file_path <config_file_path>
+//	}
 //
 // 3)
-// acmedns {
-//	   username <username>
-//     password <password>
-//     subdomain <subdomain>
-//     server_url <server_url>
-// }
+//
+//	acmedns {
+//		   username <username>
+//	    password <password>
+//	    subdomain <subdomain>
+//	    server_url <server_url>
+//	}
 //
 // 4)
-// acmedns {
-//     config {
-//         domain1.example.com {
-//	           username <username>
-//             password <password>
-//             subdomain <subdomain>
-//             fulldomain <fulldomain>
-//             server_url <server_url>
-//         }
-//         domain2.example.com {
-//	           username <username>
-//             password <password>
-//             subdomain <subdomain>
-//             fulldomain <fulldomain>
-//             server_url <server_url>
-//         }
-//     }
-// }
+//
+//	acmedns {
+//	    config {
+//	        domain1.example.com {
+//		           username <username>
+//	            password <password>
+//	            subdomain <subdomain>
+//	            fulldomain <fulldomain>
+//	            server_url <server_url>
+//	        }
+//	        domain2.example.com {
+//		           username <username>
+//	            password <password>
+//	            subdomain <subdomain>
+//	            fulldomain <fulldomain>
+//	            server_url <server_url>
+//	        }
+//	    }
+//	}
 func (p *Provider) UnmarshalCaddyfile(d *caddyfile.Dispenser) error {
 	for d.Next() {
 		if d.NextArg() {
