@@ -145,8 +145,8 @@ github.com/stretchr/testify v1.6.1/go.mod h1:6Fq8oRcR53rry900zMqJjRRixrwX3KX962/
 github.com/stretchr/testify v1.9.0 h1:HtqpIVDClZ4nwg75+f6Lvsy/wHu+3BoSGCbBAcpTsTg=
 github.com/stretchr/testify v1.9.0/go.mod h1:r2ic/lqez/lEtzL7wO/rwa5dbSLXVDPFyf8C91i36aY=
 github.com/tarm/serial v0.0.0-20180830185346-98f6abe2eb07/go.mod h1:kDXzergiv9cbyO7IOYJZWg1U88JhDg3PB6klq9Hg2pA=
-github.com/tbocek/acmedns v0.2.1 h1:iZBMrdlwvdCzRky8+t3gVfqCu1vqWIndl7WG2noyBLg=
-github.com/tbocek/acmedns v0.2.1/go.mod h1:wTglvdn+cG4YMk6xJbqxAf+6ZqW5p8zCeR2xdc/5xXA=
+github.com/tbocek/acmedns v0.2.2 h1:egHSnudqLDWpUfCbusxEuyBVV1JkV/+mNJ3NvDFfwSA=
+github.com/tbocek/acmedns v0.2.2/go.mod h1:znhivkIDhA0s7k4xmhlw8aPqoxTzY1DXv+v/vgk5/8Y=
 github.com/viant/assertly v0.4.8/go.mod h1:aGifi++jvCrUaklKEKT0BU95igDNaqkvz+49uaYMPRU=
 github.com/viant/toolbox v0.24.0/go.mod h1:OxMCG57V0PXuIP2HNQrtJf2CjqdmbrOx5EkMILuUhzM=
 github.com/zeebo/assert v1.1.0 h1:hU1L1vLTHsnO8x8c9KAR5GmM5QscxHg5RNU5z5qbUWY=
