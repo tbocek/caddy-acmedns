@@ -1,10 +1,10 @@
-module github.com/tbocek/caddy-acmedns6
+module github.com/tbocek/caddy-acmedns7
 
 go 1.23
 
 require (
 	github.com/caddyserver/caddy/v2 v2.9.1
-	github.com/tbocek/acmedns v0.2.4
+	github.com/tbocek/acmedns v0.2.5
 )
 
 require (
