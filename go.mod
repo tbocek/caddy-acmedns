@@ -1,6 +1,6 @@
 module github.com/caddy-dns/acmedns
 
-go 1.24
+go 1.23
 
 require (
 	github.com/caddyserver/caddy/v2 v2.9.1
