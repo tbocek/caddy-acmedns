@@ -1,4 +1,4 @@
-module github.com/caddy-dns/acmedns
+module github.com/tbocek/caddy-acmedns3
 
 go 1.23
 
